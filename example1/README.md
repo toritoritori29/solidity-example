@@ -15,11 +15,17 @@ npx truffle compile
 npx truffle migrate
 ```
 
+ネットワークにデプロイしたコントラクトを実行する.
+今回はFaucetに預けたり引き出したりできるスクリプトmain.js作成したのでそれを実行する
+```
+npx truffle exec main.js
+```
+
 ## 解説
 * solidity: コントラクトを記述するための言語.
-* truffle:
+* truffle: スマートコントラクト開発用のフレームワーク
 
-solidityコンパイラでイーサリウムバイトコードを生成→イーサリウムネットワークにアップロードというのがデプロイの流れ.
+solidityコンパイラでイーサリウムバイトコードを生成→イーサリウムネットワークにデプロイというのがざっくりとした開発の流れ.
 
 ## 参考
 * https://gigster.com/blog/deploy-a-fully-tested-nft-contract-using-openzeppelin/#our-erc721-contract
