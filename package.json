@@ -1,0 +1,21 @@
+{
+  "name": "solitiy-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "g": "^2.0.1",
+    "solc": "^0.8.10",
+    "truffle": "^5.4.24",
+    "web3": "^1.6.1"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.4.1",
+    "mocha": "^9.1.3"
+  }
+}
